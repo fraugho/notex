@@ -1,6 +1,6 @@
 # notex
 
-A fast, parallel note processor that uses local or cloud LLMs to categorize, enhance, and organize your notes.
+A fast, parallel note organizer that uses local or cloud LLMs to categorize, enhance, and organize your notes.
 
 ## Features
 
