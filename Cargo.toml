@@ -1,0 +1,18 @@
+[package]
+name = "notex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-openai = "0.27"
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+walkdir = "2"
+thiserror = "2"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+futures = "0.3"
+indicatif = "0.17"
+glob = "0.3"
